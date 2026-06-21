@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- НАЧАЛО (Главна страница) -->
+  <url>
+    <loc>https://pchelnaferma-belyovski.bg/index.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- ПРОДУКТИ -->
+  <url>
+    <loc>https://pchelnaferma-belyovski.bg/products.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- БЛОГ -->
+  <url>
+    <loc>https://pchelnaferma-belyovski.bg/blog.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ЗА НАС -->
+  <url>
+    <loc>https://pchelnaferma-belyovski.bg/about.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <!-- КОНТАКТИ -->
+  <url>
+    <loc>https://pchelnaferma-belyovski.bg/contacts.html</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+</urlset>

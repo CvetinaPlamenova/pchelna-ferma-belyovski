@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пчелен Мед - Дипломен проект</title>
+    <link rel="stylesheet" href="blogstyle.css">
+</head>
+<body>
+<header class="headerContainer">
+    <div class="logo">
+         <img src="logo3.png" alt="logo">
+    </div>
+        <button class="hamburgerButton">☰</button>
+<nav class="navbar">
+    <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="products.html">Продукти</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="zanas.html">За нас</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="tel:+359 888 935 754" class="tel-button">📞+ 359 888 935 754 </a></li>
+    </ul>
+</nav>
+</header>
+<section id="products">
+<section class="products-section">
+    <h2 class="section-title"></h2>
+    <div class="products-container">
+        <div class="product-card">
+  <a href="st1.html" class="product-card-link">
+    <div class="product-image">
+      <img src="statii/st1.png" alt="st1">
+    </div>
+    <h3>Химичен състав на меда</h3>
+    <span class="price"></span>
+    <span class="buy-btn">ПРОЧЕТИ ПОВЕЧЕ ИНФОРМАЦИЯ...</span>
+  </a> </div>
+
+        
+  
+  
+  
+  
+  <div class="product-card">
+  <a href="st2.html" class="product-card-link">
+    <div class="product-image">
+      <img src="statii/st2.png" alt="st1">
+    </div>
+    <h3>Преработка на нектар в пчелен мед</h3>
+    <span class="price"></span>
+    <span class="buy-btn">ПРОЧЕТИ ПОВЕЧЕ ИНФОРМАЦИЯ...</span>
+  </a> </div>
+</section>
+
+
+
+
+<section class="products-section">
+    <h2 class="section-title"></h2>
+    
+    <div class="products-container">
+        
+        <div class="product-card">
+            <a href="st3.html" class="product-card-link">
+                <div class="product-image">
+                    <img src="statii/IMG_5864.png" alt="st3">
+                </div>
+                <h3>История на създаване на „Пчелна ферма Бельовски“</h3>
+                <span class="price"></span>
+                <span class="buy-btn">ПРОЧЕТИ ПОВЕЧЕ ИНФОРМАЦИЯ...</span>
+            </a> 
+        </div>
+
+        <div class="product-card">
+            <a href="st4.html" class="product-card-link">
+                <div class="product-image">
+                    <img src="statii/st4.png" alt="st4">
+                </div>
+                <h3>Видове пчелен мед и техния произход</h3>
+                <span class="price"></span>
+                <span class="buy-btn">ПРОЧЕТИ ПОВЕЧЕ ИНФОРМАЦИЯ...</span>
+            </a> 
+        </div>
+
+    </div> </section>
+
+</section>
+<section id="contacts">
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="logo3.png" alt="logobez">
+        </div>
+        <div class="footer-info">
+            <h4>КОНТАКТИ</h4>
+            <p>📍 с. Крушовица, България</p>
+            <p><a href="tel:+359 888 935 754" class="tel-button">
+            📞 За поръчки: + 359 888 935 754
+            </a></p>
+           <p><a href="tel:+359 887 997 075" class="tel-button">
+            📞 За поръчки: + 359 888 935 754
+            </a></p>
+            <p>✉️ belyovskifarm@gmail.com</p>
+        </div>
+        <div class="footer-links">
+            <h4>ИНФОРМАЦИЯ</h4>
+            <ul>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="products.html">Нашите продукти</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Пчелна ферма Бельовски. Всички права запазени.</p>
+    </div>
+   
+</footer>
+</section>
+<script>
+const hamburger = document.querySelector('.hamburgerButton');
+const navLinks = document.querySelector('.navbar'); 
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+</script>
+</body>
+</html>

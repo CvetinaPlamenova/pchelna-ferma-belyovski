@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пчелен Мед - Дипломен проект</title>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+<header class="headerContainer">
+     <div class="logo">
+         <a href="index.html" class="logo-link">
+    <img src="logo3.png" alt="logo">
+</a>
+    </div>
+    <button class="hamburgerButton">☰</button>
+<nav class="navbar">
+    <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="products.html">Продукти</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="zanas.html">За нас</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="tel:+359 888 935 754" class="tel-button">📞+ 359 888 935 754 </a></li>
+                
+    </ul>
+</nav>
+</header>
+
+
+<section class="products-container">
+<section id="map-container">
+    
+    <div class="map-text-box">
+        <h2>Заповядайте при нас!</h2>
+        <p>Намерете чистия пчелен мед директно от производителя. Нашата ферма се намира в екологично чист район, където пчелите ни събират най-доброто от природата.</p>
+        
+        <ul class="contact-details">
+            <li>📍 <strong>Адрес:</strong> с. Крушовица, ул. Д. Т. Петров №102</li>
+            <li>📞 <strong>Телефон:</strong> 0888 935 754</li>
+            <li>🕒 <strong>Работно време:</strong> Всеки ден 08:00 - 18:00 часа</li>
+        </ul>
+    </div>
+
+    <div class="map-iframe-wrapper">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d5775.863967415279!2d23.842520733734833!3d43.62877457092529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d43.6303743!2d23.8521552!4m3!3m2!1d43.6304054!2d23.852326899999998!5e0!3m2!1sbg!2sbg!4v1781341056746!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+</section>
+</section>
+
+
+
+
+<section id="contacts">
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="logo3.png" alt="logobez">
+        </div>
+        <div class="footer-info">
+            <h4>КОНТАКТИ</h4>
+            <p>📍 с. Крушовица, България</p>
+            <p><a href="tel:+359 888 935 754" class="tel-button">
+            📞 За поръчки: + 359 888 935 754
+            </a></p>
+           <p><a href="tel:+359 887 997 075" class="tel-button">
+            📞 За поръчки: + 359 888 935 754
+            </a></p>
+            <p>✉️ belyovskifarm@gmail.com</p>
+        </div>
+        <div class="footer-links">
+            <h4>ИНФОРМАЦИЯ</h4>
+            <ul>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="products.html">Нашите продукти</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Пчелна ферма Бельовски. Всички права запазени.</p>
+    </div>
+</footer>
+</section>
+</section>
+<script>
+const hamburger = document.querySelector('.hamburgerButton');
+const navLinks = document.querySelector('.navbar'); // <--- Тук променихме името на .navbar
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пчелен Мед - Дипломен проект</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="headerContainer">
+    <div class="logo">
+         <img src="logo3.png" alt="logo">
+    </div>
+<nav class="navbar">
+    <ul>
+                <li><a href="#">За нас</a></li>
+                <li><a href="#">Продукти</a></li>
+                <li><a href="#">Галерия</a></li>
+                <li><a href="#">Контакт</a></li>
+    </ul>
+</nav>
+</header>
